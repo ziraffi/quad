@@ -37,13 +37,12 @@ This will launch the application in development mode. Open http://localhost:5173
 📜 Available Scripts
 In the project directory, you can run:
 
-npm run dev: Runs the app in development mode
-npm run build: Builds the app for production
-npm run lint: Lints the project files
-npm run preview: Previews the built app
+   npm run dev: Runs the app in development mode
+   npm run build: Builds the app for production
+   npm run lint: Lints the project files
+   npm run preview: Previews the built app
 
-If you Wanna Look at Live
-Click here: quad-weld.vercel.app
+
 
 
 
