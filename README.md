@@ -19,8 +19,8 @@ Welcome to the **Final Quadrant Dashboard** project! This interactive web applic
 
 Before you begin, ensure you have the following installed on your system:
 
-- **Node.js** (v14.0.0 or later)
-- **npm** (v6.0.0 or later)
+- **Node.js** (v22.0.0 or later)
+- **npm** (v11.0.0 or later)
 
 ---
 
@@ -68,20 +68,31 @@ In the project directory, you can run the following scripts:
 
 ## 🌐 Project Structure
 
-```
 final-quadrant-dashboard/
-├── public/         # Static assets
+├── public/
+│   └── (static assets)
 ├── src/
-│   ├── components/ # Reusable React components
-│   ├── charts/     # Custom chart components
-│   ├── pages/      # Page-level components
-│   ├── styles/     # Global and component-specific styles
-│   ├── utils/      # Helper functions and utilities
-│   └── App.jsx     # Main application file
-├── .eslintrc.js    # ESLint configuration
-├── vite.config.js  # Vite configuration
-└── package.json    # Project metadata and dependencies
-```
+│   ├── assets/
+│   │   └── (SVG files and other assets)
+│   ├── components/
+│   │   └── (Reusable React components)
+│   ├── layouts/
+│   │   └── (Layout components)
+│   ├── styles/
+│   │   └── (Global and component-specific styles)
+│   ├── utils/
+│   │   └── (Helper functions and utilities)
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── .eslintrc.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
 
 ---
 
